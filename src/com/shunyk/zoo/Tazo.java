@@ -1,16 +1,27 @@
 package com.shunyk.zoo;
 
-public class Tazo extends Animal{//상속
-	private String wing;
-
-	public String getWing() {
-		return wing;
+public class Tazo extends Birds{//상속
+	
+	private int egg;
+	
+	public int getEgg() {
+		return egg;
 	}
 
-	public void setWing(String wing) {
-		this.wing = wing;
+	public void setEgg(int egg) {
+		this.egg = egg;
+	}
+
+	public Tazo() {
+		super();
+		
+		
 	}
 	
-	
+	public Tazo(int egg) {
+		this.egg = egg;
+		this.getEgg();
+		//super.getEgg();
+	}
 
 }

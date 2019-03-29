@@ -1,6 +1,6 @@
 package com.shunyk.zoo;
 
-public class Animal {
+public abstract class Animal {
 	//공통적인 요소
 	private String color;
 	private double ki;
@@ -39,8 +39,6 @@ public class Animal {
 		this.age = age;
 	}
 
-	public void sleep() {
-		System.out.println("Sleep");
+	public abstract void eat();
 		
-	}
 }
