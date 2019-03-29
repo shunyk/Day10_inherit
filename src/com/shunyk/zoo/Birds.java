@@ -1,6 +1,6 @@
 package com.shunyk.zoo;
 
-public class Birds extends Animal {
+public abstract class Birds extends Animal {
 	private String wing;
 	
 	public Birds() {
@@ -19,10 +19,4 @@ public class Birds extends Animal {
 		this.wing = wing;
 	}
 
-	@Override
-	public void eat() {
-		// TODO Auto-generated method stub
-		
-	}
-	
 }

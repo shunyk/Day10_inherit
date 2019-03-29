@@ -20,8 +20,14 @@ public class Tazo extends Birds{//상속
 	
 	public Tazo(int egg) {
 		this.egg = egg;
-		this.getEgg();
-		//super.getEgg();
+		this.getAge();
+		super.getAge();
+	}
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

@@ -39,6 +39,6 @@ public abstract class Animal {
 		this.age = age;
 	}
 
-	public abstract void eat();
+	public void eat() {}
 		
 }
